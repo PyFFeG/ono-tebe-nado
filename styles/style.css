@@ -69,28 +69,37 @@
 }
 
 .cover__title {
-  display: block;
-  position: absolute;  
+  display: flex;
+  flex-direction: column;
+  gap: 20px; 
   font-weight: 700;
   font-size: 100px;
   text-transform: uppercase;
 }
 
 .aligned-text {
-  display: block;
-  letter-spacing: 0.3em;
+  align-self: flex-start;
+  line-height: 115px;
+  padding-top: 165px;
+  padding-left: 50px;
+  letter-spacing: 3.5px;
 }
 
 .aligned-text_center {
-  position: center;
+  align-self: center;
+  line-height: 100px;
+  letter-spacing: 30px;
+  padding-left: 27px;
 }
 
 .aligned-text_right {
-  position: ;
+  align-self: flex-end;
+  line-height: 100px;
+  letter-spacing: 30px;
 }
 
 .letter-spacing-extended {
-  letter-spacing: 0.6em;
+  letter-spacing: 60px;
 }
 
 .no-letter-spacing {
